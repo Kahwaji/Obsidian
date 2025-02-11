@@ -1,6 +1,6 @@
 
 Day 1:
-- 5%- 10% of customers great credited every months. Most of the cases are due to cancellation
+- 5%- 10% of customers get credited every months. Most of the cases are due to cancellation
 - Services are like evergreen, get cancelled when customers ask. No refund for that.
 - onboarding new customers from SF to Billingplatform
 - Master data for account is SF, for Contract it's in BP
