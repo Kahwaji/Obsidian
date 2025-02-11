@@ -9,7 +9,9 @@ subscription based, usage based and onetime fee pricing models
 3 different billing systems Transwide is live=BillingPlatform (Bruno), Inet = Netsuite billing, OpenBravo = current billing system  
 Open Bravo former ERP currently use/ current billing system  
 SalesForce = using connector  
-  
+
+
+
 Volume:  
 2k invoices per month, 8400 charges   
 1.5 fte on the billing team  

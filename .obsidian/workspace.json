@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BP/Alpega/Sam.md",
+                "file": "BP/Alpega/test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sam"
+              "title": "test"
             }
           },
           {
@@ -252,10 +252,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0b9d9cb90b108125",
+  "active": "5c87b4d6e448b99d",
   "lastOpenFiles": [
-    "BP/Alpega/Gus.md",
     "BP/Alpega/Sam.md",
+    "BP/Alpega/test.md",
+    "BP/Alpega/Gus.md",
     "Untitled.md",
     "BP/Alpega/Abdullah.md",
     "BP/Alpega/My Notes.md",
@@ -266,7 +267,6 @@
     "BP/BP4BP.md",
     "BP/Apega.md",
     "BP/Alpega",
-    "Untitled 1.md",
     "2025-02-08.md",
     "Untitled Kanban.md",
     "Abdo.css",
