@@ -64,7 +64,7 @@ Customer Accounts:
 - New fields: Invoice To  
 - New Account Types: Site, Company, Null, National (99% of accounts are Sites)   
 - Account Type should never be blank or null. the data will need to be cleaned up before loading to BP  
-- In SFDC On the subscription there is a field called Product that will define the wtn subscription/contract  
+- In SFDC On the subscription there is a field called Product that will define the WTN subscription/contract  
 - each account and contract will need to be enriched after creation. decision?  
 - need ability to identify WTN specific contracts/subscription  
 - single customer account could have contracts from multiple business channels  
@@ -88,8 +88,7 @@ Contracts:
   
 - NEW:  
 Created in SFDC and synched to BP via connector  
-  
-  
+    
 - RENEWAL  
 Auto Renewal - evergreen contract auto renews with the same terms/rates defined on the creation   
   
@@ -111,7 +110,7 @@ Hierarchies:
   
 Invoices:  
 INVOICE SPLIT/Consolidation:  
-- Ability to consolidate charges from multiple contracts from different subaccounts into a single invoice for the HQ  
+- Ability to consolidate charges from multiple contracts from different sub Accounts into a single invoice for the HQ  
 - Usage - 13 unique products, 2 are pre-rated, 11 are not and BP will need to keep the default price  
 - Usage products are not part of the contract and are billed on the separate invoices from subscriptions and   
 - scenario where the branch accounts use the same billing address as HQ for the VAT calculation  
@@ -174,5 +173,7 @@ Price Increases: 
 - need ability to export all existing price records for active contracts, update prices and reload them back into BP as a new price record  
   
 Reports:  
-Revenue Forecasting? one year at the time show all of the recurring charges that will be active in this year(could report requirement)
+Revenue Forecasting? one year at the time show all of the recurring charges that will be active in this year(could report requirement).
+
+
 
