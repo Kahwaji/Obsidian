@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BP/Alpega/new.md",
+                "file": "BP/Alpega/Test2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new"
+              "title": "Test2"
             }
           },
           {
@@ -252,9 +252,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c87b4d6e448b99d",
+  "active": "0b9d9cb90b108125",
   "lastOpenFiles": [
     "BP/Alpega/Sam.md",
+    "BP/Alpega/Test2.md",
     "BP/Alpega/new.md",
     "BP/Alpega/test.md",
     "BP/Alpega/Gus.md",
