@@ -10,8 +10,6 @@ subscription based, usage based and onetime fee pricing models
 Open Bravo former ERP currently use/ current billing system  
 SalesForce = using connector  
 
-
-
 Volume:  
 2k invoices per month, 8400 charges   
 1.5 fte on the billing team  
