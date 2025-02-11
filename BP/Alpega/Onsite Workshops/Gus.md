@@ -1,8 +1,6 @@
 
 ## Day 1
 
-### Intro
-
 Transwide: Late but delivered and successful. Peak busy time of the month (all calendar monthly)
 Alpega: TMS (Transport Mgmt System) and FX (Freight Exchange - Teleroute). Low amounts / high volumes.
 Each Alpega company started with its own billing rules and systems.
@@ -29,11 +27,10 @@ WTN volumes:
 - 5-10% credits - Mostly full credits. Corrections (partial credits) are rare
 
 Peak processing moments:
-
 - Daily for new customers/contracts 
 - 3 times/month for renewals 
 - Month-end for usage 
--  all usage is invoiced calendar monthly
+- All usage is invoiced calendar monthly
     
 WTN contract information is in SF Opportunity and Subscription. Mostly the Opportunity, which is not yet being referenced by the existing implementation.
 
@@ -52,7 +49,7 @@ WTN terminology:
     
 OpenBravo today upserts Contracts and Invoices into SF (custom SF objects)
 
-Pricelists are replicated between SF and OpenBravo. Going forward, pricelists will be mastered in Salesforce. WTN thinks they also need to be copied to BillingPlatform for upsells. BP thinks we do not need to have these pricelists because upsells (adding more products) would take place in SF and sync’ed to BP with the correct price. No need to replicate prices and pricing logic in BP (SF already has all this).
+Price lists are replicated between SF and OpenBravo. Going forward, price lists will be mastered in Salesforce. WTN thinks they also need to be copied to BillingPlatform for upsells. BP thinks we do not need to have these price lists because upsells (adding more products) would take place in SF and sync’ed to BP with the correct price. No need to replicate prices and pricing logic in BP (SF already has all this).
 
 Price is determined by pricelist version (date) and customer profile.
 
@@ -69,7 +66,6 @@ Account Hierarchies: New account types? Does not seem to be required. All accoun
 The Salesforce hierarchy (parent) is not currently being leveraged. Instead, a custom “Invoice To (WTN)” field indicates invoice responsibility delegation, which we might translate to a hierarchy and making lower level accounts non-billable. That way, contracts/account products can be maintained on lower level accounts, while invoices go to the higher Invoice To.
 
 Multi-contract Invoices under 1 account should be consolidated when:
-
 - Checkbox is checked (specifying the desire to consolidate)
 - The billing address is the same (this should always be the case if all the charges are going to the same account)
 - The postal address (referred to by Alpega as the “ship-to address”)
@@ -90,8 +86,7 @@ Print media is currently in the SF Contract, which is NOT currently being used b
 Reports: "Forecast" report - built a proto-report in BillingPlatform - For calendar year budgeting. Alpega to review and determine if it is sufficient.
 
 Price increases
-
-- Increase pricelist rates: SF
+- Increase price list rates: SF
 - Increase prices for all contracts: BP
 - Increase prices for certain customers/products (contracts): BP
 - Need to have a filter on location of the customer (Spain vs Portugal) - in BP, when looking for Contracts or Invoices.
@@ -106,7 +101,6 @@ When Manually adding a product to an existing contract or manually creating a ne
 Products: Contract items, usage and manual invoices
 
 Product Attributes:
-
 - Main: true/false (customer can only have 1 active sub to one of these)
 - Type of Sale: renewable or Puntual (included in the first sale) - Subscription vs One-off or usage (non-recurring)
 - Sub Periods: Anual (Yearly), Mensual (Monthly), Trimestral (Quarterly), bi-anual (bi-annual) and Half-yearly.
@@ -115,17 +109,14 @@ Product Attributes:
 - Items for manually created invoices: currently 2-3 products only. Alpega requires capability to create more.
 
 Customer information - to determine price:
-
 - Type of Company (about 11) and date/version
-- When creating "upsells" would happen in BP, BP needs to know the customer profile (level)/seniority and pricelist prices for that
+- When creating "upsells" would happen in BP, BP needs to know the customer profile (level)/seniority and price list prices for that
 
 Active WTN contracts:
-
 - About ~11K
 - About 4 items per invoice
     
 Usage:
-
 - Total of 13 usage products
 - WTN prerates 2 products
 - For the rest of the usage products (11), they are applicable to ANY WTN customer. Not explicitly included in contracts and not contract specific
@@ -133,7 +124,6 @@ Usage:
 - Default pricing in BP required for the (13-2=11) usage products  
 
 Pricing Plan-related info in BP:
-
 - Pricing plans/cards in BP - NO (although Alpega keeps thinking we need them - this needs a final decision)
 - Product Category - may need for reports - need to check.
 ## Day 2
@@ -153,9 +143,7 @@ Contract items being handled in different cases:
 - Payment Method
 - Payment Bank Account
     
-Invoice always goes to the 
-
-Ledger in NetSuite? 1 account in SF => multiple Customers in NS (?)
+Invoice always goes to the Ledger in NetSuite? 1 account in SF => multiple Customers in NS (?)
 - In NS we can't have multiple bank accounts << 
 
 1 Account in SF with 3 contracts with different payment methods, today in OB that splits into multiple "Accounts" - 1 per payment method.
@@ -167,7 +155,7 @@ Multiple contracts going to a single invoice could creak this, because the servi
 Requirement: in a given month, I want to see all the charges that are to be generated that month (any day that month) - based on sub start date/service date.
 Requirement: be able to pick/filter on the periodicity and the product category.
 90% customers/contracts are annual
->> 9-month period not a requirement. It is in Open Bravo, but it is not used.
+9-month period not a requirement. It is in Open Bravo, but it is not used.
 
 ### Afternoon
 
@@ -201,7 +189,6 @@ It is also possible the customer is asked to prepay 1 of the installment payment
 Opportunity/Subscription with first installment immediately will not be "billable" until it is paid.
 
 IMPORTANT: This means the following:
-
 - 2 Payment Terms per contract:
 - First year payment terms
 - On renewal payment terms

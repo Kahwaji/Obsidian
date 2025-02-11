@@ -4,41 +4,38 @@ company overview:
 transport management company  
   
 Overview/EcoSystem:  
-subscription based, usage based and onetime fee pricing models  
-5 different companies under single umbrella  
-3 different billing systems Transwide is live=BillingPlatform (Bruno), Inet = Netsuite billing, OpenBravo = current billing system  
-Open Bravo former ERP currently use/ current billing system  
-SalesForce = using connector  
+	subscription based, usage based and onetime fee pricing models  
+	5 different companies under single umbrella  
+	3 different billing systems Transwide is live=BillingPlatform (Bruno), Inet = Netsuite billing, OpenBravo = current billing system  
+	Open Bravo former ERP currently use/ current billing system  
+	SalesForce = using connector  
 
 Volume:  
-2k invoices per month, 8400 charges   
-1.5 fte on the billing team  
-5-10% of the invoices are credited  
-majority cancelation  
-2043 credit memos were created last year  
-refunds are not common  
-credit automation already built = file upload  
-rate = default rate on the product or list price  
-price = contracted rate  
+	2k invoices per month, 8400 charges   
+	1.5 FTE on the billing team  
+	5-10% of the invoices are credited majority cancelation  
+	2043 credit memos were created last year  
+	refunds are not common  
+	credit automation already built = file upload  
+	rate = default rate on the product or list price  
+	price = contracted rate  
   
 Points of Pain:  
 1. onboarding new customers contract automation  
 2. avoid manual work  
   
 Data Masters:  
-  
-accounts = salesforce  
-subscriptions = salesforce  
-contracts = salesforce in the form of opportunity and subscriptions, custom objects to store the contract after it is created in BP  
-products = salesforce  
-invoices/credits = billingplatform  
-payments/GL = netsuite  
-usage = wtn  
+	accounts = salesforce  
+	subscriptions = salesforce  
+	contracts = salesforce in the form of opportunity and subscriptions, custom objects to store the contract after it is created in BP  
+	products = salesforce  
+	invoices/credits = billingplatform  
+	payments/GL = netsuite  
+	usage = wtn  
   
 OpenBravo:  
-Prices/Discounts are maintained  
-Contracts are maintained in open bravo and synced to SFDC  
-  
+	Prices/Discounts are maintained  
+	Contracts are maintained in open bravo and synced to SFDC  
   
 Payment Status = information only used for reporting   
 Manual Invoice = additional charges/fixed fees or overage, these will come in the form of usage and uploaded into BP   
@@ -55,7 +52,7 @@ Puntual = One Time
 - SFDC will be product master  
 - Frequency: Monthly, Quarterly, Semi-Annual, Annual, 24 months  
 - Billing cycles are aligned with the start date of the subscription  
-- all products have to be created in SFDC and synced to BP and Netsuite from SFDC  
+- All products have to be created in SFDC and synced to BP and Netsuite from SFDC  
   
 Discounts:  
 - Discount amount is included on the subscription or line item in Salesforce. The record will include list price, discount amount and unit price  

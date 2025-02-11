@@ -4,44 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "deed411f720dcc5f",
+        "id": "c63ce0f49ccb0c9d",
         "type": "tabs",
         "children": [
           {
-            "id": "af79764ac8752dc6",
+            "id": "ed43e32e9651a73c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BP/Alpega/My Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "My Notes"
-            }
-          },
-          {
-            "id": "70bdadaccf0bcde6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BP/Alpega/Gus.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gus"
-            }
-          },
-          {
-            "id": "0b9d9cb90b108125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BP/Alpega/Abdullah.md",
+                "file": "BP/Alpega/Onsite Workshops/Abdullah.md",
                 "mode": "source",
                 "source": false
               },
@@ -50,12 +22,26 @@
             }
           },
           {
-            "id": "8f82cef7c5bfb5eb",
+            "id": "bc62052d019b5909",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BP/Alpega/Sam.md",
+                "file": "BP/Alpega/Onsite Workshops/Gus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gus"
+            }
+          },
+          {
+            "id": "204deb8124847c96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BP/Alpega/Onsite Workshops/Sam.md",
                 "mode": "source",
                 "source": false
               },
@@ -64,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -236,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,22 +235,22 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "graph:Open graph view": false,
-      "obsidian-git:Open Git source control": false,
-      "remotely-save:Remotely Save": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f82cef7c5bfb5eb",
+  "active": "204deb8124847c96",
   "lastOpenFiles": [
-    "BP/Alpega/Abdullah.md",
+    "BP/Alpega/Onsite Workshops/Gus.md",
+    "BP/Alpega/Onsite Workshops/Abdullah.md",
+    "BP/Alpega/Onsite Workshops/Sam.md",
+    "Untitled.md",
+    "BP/Ideas.md",
+    "BP/Alpega/My Notes.md",
+    "BP/Alpega/Onsite Workshops",
     "BP/Alpega/test3.md",
-    "BP/Alpega/Sam.md",
     "BP/Alpega/Test2.md",
     "BP/Alpega/new.md",
     "BP/Alpega/test.md",
-    "BP/Alpega/Gus.md",
-    "Untitled.md",
-    "BP/Alpega/My Notes.md",
-    "BP/Ideas.md",
     "Untitled.canvas",
     "2025-02-11.md",
     "BP/BP4BP",
