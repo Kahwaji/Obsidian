@@ -14,5 +14,6 @@
   "remove-newlines",
   "swiss-army-knife",
   "obsidian-git",
-  "remotely-save"
+  "remotely-save",
+  "google-drive-sync"
 ]
