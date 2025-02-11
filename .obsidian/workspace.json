@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BP/Alpega/Test2.md",
+                "file": "BP/Alpega/Abdullah.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Test2"
+              "title": "Abdullah"
             }
           },
           {
@@ -254,6 +254,7 @@
   },
   "active": "0b9d9cb90b108125",
   "lastOpenFiles": [
+    "BP/Alpega/test3.md",
     "BP/Alpega/Sam.md",
     "BP/Alpega/Test2.md",
     "BP/Alpega/new.md",
