@@ -1,0 +1,10 @@
+{
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "Abd",
+    "Abdo"
+  ],
+  "showRibbon": true,
+  "baseFontSize": 16,
+  "baseFontSizeAction": false
+}
