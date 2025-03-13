@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7abcd25e1b9364f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-03-13.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-03-13"
-            }
-          },
-          {
             "id": "a3d5a4e252362480",
             "type": "leaf",
             "state": {
@@ -48,9 +34,37 @@
               "icon": "lucide-file",
               "title": "Abdullah - Draft"
             }
+          },
+          {
+            "id": "e630ee604f185059",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Notes"
+            }
+          },
+          {
+            "id": "5a4c23922e188140",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Github"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -238,24 +252,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6856ac31714d8bbe",
+  "active": "5a4c23922e188140",
   "lastOpenFiles": [
+    "SQL report.md",
+    "Github.md",
+    "Untitled.canvas",
+    "ProServ meeting notes.md",
+    "Notes.md",
+    "2025-03-13.md",
+    "BP/Alpega/Onsite Workshops/Abdullah - Draft.md",
     "kahwaji",
     "Abdo-Auth.pub",
     "Abdo-Auth",
     "BP/Alpega/My Notes.md",
-    "2025-03-13.md",
-    "SQL report.md",
-    "Untitled.md",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "BP/Alpega/Onsite Workshops/Abdullah Final.md",
-    "BP/Alpega/Onsite Workshops/Abdullah - Draft.md",
     "BP/Alpega/Onsite Workshops/Gus.md",
-    "ProServ meeting notes.md",
     "BP/Alpega/Onsite Workshops/Sam.md",
     "BP/Ideas.md",
-    "Notes.md",
     "BP/Alpega/Onsite Workshops/Abdullah 2.md",
     "BP/Alpega/Onsite Workshops",
     "BP/Alpega/test3.md",
