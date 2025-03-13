@@ -1,0 +1,15 @@
+{
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "Abd",
+    "Abdo"
+  ],
+  "showRibbon": true,
+  "baseFontSize": 21,
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "Arial",
+  "textFontFamily": "Arial",
+  "monospaceFontFamily": "Arial",
+  "showViewHeader": true,
+  "nativeMenus": true
+}

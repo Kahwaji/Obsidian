@@ -1,0 +1,32 @@
+{
+  "showActiveTabs": true,
+  "autoUncollapseGroup": true,
+  "hideSidebars": false,
+  "sidebarTabTypes": [
+    "markdown"
+  ],
+  "sidebarExcludeSelf": true,
+  "trimTabNames": false,
+  "showMoreButtons": true,
+  "useTabEditing": true,
+  "zenMode": false,
+  "showActiveTabsInZenMode": true,
+  "enableTabZoom": true,
+  "enhancedKeyboardTabSwitch": true,
+  "alwaysOpenInNewTab": false,
+  "deduplicateTabs": false,
+  "ephemeralTabs": false,
+  "smartNavigation": true,
+  "navigationStrategy": "obsidian-plus",
+  "autoCloseEphemeralTabs": true,
+  "deduplicateSameGroupTabs": false,
+  "deduplicateSidebarTabs": false,
+  "deduplicatePopupTabs": false,
+  "linkedFolderLimit": 5,
+  "linkedFolderSortStrategy": "fileNameAToZ",
+  "columnViewMinWidth": 300,
+  "continuousViewShowMetadata": false,
+  "continuousViewShowBacklinks": false,
+  "backgroundMode": false,
+  "installationID": "BuL_43_PYt_z5iGC_Txej"
+}
